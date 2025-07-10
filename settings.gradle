@@ -1,0 +1,3 @@
+rootProject.name = 'LiveStudy'
+
+include 'UserService'
