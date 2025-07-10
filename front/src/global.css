@@ -1,0 +1,9 @@
+@import '../public/fonts/Pretendard.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Pretendard", sans-serif;
+}
