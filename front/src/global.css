@@ -4,16 +4,22 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+body, html {
   font-family: "Pretendard", sans-serif;
+  color: #333;
 }
 
-/* common css style */
+/* 
+  텍스트 컬러는 기본적으로 #333333으로 지정
+  텍스트 컬러가 disabled일 때에는, #cccccc
+*/
 
-/* Title font */
+/* common styles */
+
+/* Title */
 
 .small-title {
-  @apply text-base font-semibold;
+  @apply text-base font-medium;
 }
 
 .medium-title {
@@ -21,33 +27,27 @@ body {
 }
 
 .large-title {
-  @apply text-4xl font-bold;
+  @apply text-3xl font-bold;
 }
 
 /* button */
 
 button {
-  @apply cursor-pointer;
-  @apply border-none;
+  @apply border-none cursor-pointer bg-[#eeeeee] transition-all duration-300;
+}
+
+button:hover {
+  @apply bg-primary-500 text-white;
 }
 
 .small-button {
-  @apply py-2 px-4 rounded-[4px];
+  @apply py-2 px-4 rounded;
 }
 
 .medium-button {
-  @apply py-4 px-6 rounded-[8px];
+  @apply py-4 px-6 rounded-lg;
 }
 
 .large-button {
-  @apply py-6 px-8 rounded-[12px];
-}
-
-/* Input */
-.input {
-  @apply w-full max-w-[420px] h-[60px];
-}
-
-.loginButton {
-  @apply w-full max-w-[420px] h-[60px];
+  @apply py-6 px-9 rounded-xl;
 }
