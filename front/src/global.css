@@ -4,6 +4,50 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+body, html {
   font-family: "Pretendard", sans-serif;
+  color: #333;
+}
+
+/* 
+  텍스트 컬러는 기본적으로 #333333으로 지정
+  텍스트 컬러가 disabled일 때에는, #cccccc
+*/
+
+/* common styles */
+
+/* Title */
+
+.small-title {
+  @apply text-base font-medium;
+}
+
+.medium-title {
+  @apply text-2xl font-semibold;
+}
+
+.large-title {
+  @apply text-3xl font-bold;
+}
+
+/* button */
+
+button {
+  @apply border-none cursor-pointer bg-[#eeeeee] transition-all duration-300;
+}
+
+button:hover {
+  @apply bg-primary-500;
+}
+
+.small-button {
+  @apply py-2 px-4 rounded;
+}
+
+.medium-button {
+  @apply py-4 px-6 rounded-lg;
+}
+
+.large-button {
+  @apply py-6 px-9 rounded-xl;
 }
