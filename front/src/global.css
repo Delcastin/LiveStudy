@@ -19,11 +19,11 @@ body, html {
 /* Title */
 
 .small-title {
-  @apply text-base font-medium;
+  @apply text-base font-semibold;
 }
 
 .medium-title {
-  @apply text-2xl font-semibold;
+  @apply text-2xl font-bold;
 }
 
 .large-title {
@@ -31,23 +31,9 @@ body, html {
 }
 
 /* button */
+/* bg-[#eee] 혹은 primary */
 
 button {
-  @apply border-none cursor-pointer bg-[#eeeeee] transition-all duration-300;
+  @apply border-none cursor-pointer transition-all duration-300;
 }
 
-button:hover {
-  @apply bg-primary-500 text-white;
-}
-
-.small-button {
-  @apply py-2 px-4 rounded;
-}
-
-.medium-button {
-  @apply py-4 px-6 rounded-lg;
-}
-
-.large-button {
-  @apply py-6 px-9 rounded-xl;
-}
