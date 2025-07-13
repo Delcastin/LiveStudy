@@ -1,4 +1,5 @@
 import { FiClock, FiMessageCircle, FiUsers, FiVideo } from "react-icons/fi";
+import Footer from "../components/common/Footer";
 import Header from "../components/common/Header";
 
 function LandingPage() {
@@ -100,6 +101,7 @@ function LandingPage() {
           </button>
         </div>
       </section>
+      <Footer />
     </div>
   )
 }
