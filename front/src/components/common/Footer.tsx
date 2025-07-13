@@ -12,9 +12,9 @@ const Header = () => {
 
           {/* 우측: 링크 */}
           <div className="flex gap-4">
-            <Link to="/about" className="hover:text-primary-500 transition">서비스 소개</Link>
-            <Link to="/terms" className="hover:text-primary-500 transition">이용약관</Link>
-            <Link to="/privacy" className="hover:text-primary-500 transition">개인정보처리방침</Link>
+            <Link to="/about" className="hover:text-primary-400 transition">서비스 소개</Link>
+            <Link to="/terms" className="hover:text-primary-400 transition">이용약관</Link>
+            <Link to="/privacy" className="hover:text-primary-400 transition">개인정보처리방침</Link>
           </div>
       </div>
 
