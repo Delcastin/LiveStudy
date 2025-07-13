@@ -14,7 +14,7 @@ function LandingPage() {
           <p className="text-white text-center mt-4 mb-12">
             전국의 모든 친구들과, 집중하는 공부를 시작해보세요.
           </p>
-          <button className="w-fit px-12 py-4 text-2xl font-bold bg-[#eee] text-primary-500 rounded-full hover:bg-primary-500 hover:text-[#eee]">
+          <button className="w-fit px-12 py-4 text-2xl font-bold bg-[#eee] text-primary-500 rounded-full hover:bg-primary-400 hover:text-[#eee]">
             지금 시작하기
           </button>
         </div>
@@ -94,7 +94,7 @@ function LandingPage() {
         <div className="text-center mt-16">
           <button
             onClick={() => window.location.href = '/auth/join'} // 또는 router.push('/auth/join') 사용도 가능
-            className="px-12 py-4 text-2xl font-bold bg-primary-500 text-[#eee] hover:bg-[#eee] hover:text-primary-500 rounded-full"
+            className="px-12 py-4 text-2xl font-bold bg-primary-500 text-[#eee] hover:bg-[#eee] hover:text-primary-400 rounded-full"
           >
             지금 가입하고 시작하기
           </button>
